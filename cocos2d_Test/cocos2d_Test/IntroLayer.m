@@ -51,8 +51,8 @@
 			background = [CCSprite spriteWithFile:@"Default-Landscape~ipad.png"];
 		}
          */
-        background = [CCSprite spriteWithFile:@"Default.png"];
-        background.rotation = 90;
+        background = [CCSprite spriteWithFile:@"Icon.png"];
+        //background.rotation = 90;
 		background.position = ccp(size.width/2, size.height/2);
 
 		// add the label as a child to this Layer
