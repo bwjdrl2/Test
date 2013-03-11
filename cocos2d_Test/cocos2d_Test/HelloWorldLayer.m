@@ -121,12 +121,14 @@
 
 -(void) achievementViewControllerDidFinish:(GKAchievementViewController *)viewController
 {
+    NSLog(@"achievementViewControllerDidFinish");
 	AppController *app = (AppController*) [[UIApplication sharedApplication] delegate];
 	[[app navController] dismissModalViewControllerAnimated:YES];
 }
 
 -(void) leaderboardViewControllerDidFinish:(GKLeaderboardViewController *)viewController
 {
+    NSLog(@"leaderboardViewControllerDidFinish");
 	AppController *app = (AppController*) [[UIApplication sharedApplication] delegate];
 	[[app navController] dismissModalViewControllerAnimated:YES];
 }
