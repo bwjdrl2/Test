@@ -9,8 +9,7 @@
 #import "cocos2d.h"
 
 #import "AppDelegate.h"
-#import "IntroLayer.h"
-#import "HelloWorldLayer.h"
+#import "Game.h"
 
 @implementation MyNavigationController
 
@@ -21,10 +20,12 @@
 	
 	// iPhone only
 	if( [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone )
-		return UIInterfaceOrientationMaskLandscape;
+		//return UIInterfaceOrientationMaskLandscape;
+        return UIInterfaceOrientationPortrait | UIInterfaceOrientationPortraitUpsideDown;
 	
 	// iPad only
-	return UIInterfaceOrientationMaskLandscape;
+	//return UIInterfaceOrientationMaskLandscape;
+    return UIInterfaceOrientationPortrait | UIInterfaceOrientationPortraitUpsideDown;
 }
 
 // Supported orientations. Customize it for your own needs
@@ -33,11 +34,13 @@
 {
 	// iPhone only
 	if( [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone )
-		return UIInterfaceOrientationIsLandscape(interfaceOrientation);
+		//return UIInterfaceOrientationIsLandscape(interfaceOrientation);
+        return UIInterfaceOrientationIsPortrait(interfaceOrientation);
 	
 	// iPad only
 	// iPhone only
-	return UIInterfaceOrientationIsLandscape(interfaceOrientation);
+	//return UIInterfaceOrientationIsLandscape(interfaceOrientation);
+    return UIInterfaceOrientationIsPortrait(interfaceOrientation);
 }
 
 // This is needed for iOS4 and iOS5 in order to ensure
@@ -48,7 +51,8 @@
 	if(director.runningScene == nil) {
 		// Add the first scene to the stack. The director will draw it immediately into the framebuffer. (Animation is started automatically when the view is displayed.)
 		// and add the scene to the stack. The director will run it when it automatically when the view is displayed.
-		[director runWithScene: [IntroLayer scene]];
+		//[director runWithScene: [MyCocos2DClass scene]];
+        [[Game sharedGame] RunScene:Scene_Menu];
 	}
 }
 @end
@@ -78,7 +82,7 @@
 	director_.wantsFullScreenLayout = YES;
 	
 	// Display FSP and SPF
-	//[director_ setDisplayStats:YES];
+	[director_ setDisplayStats:YES];
 	
 	// set FPS at 60
 	[director_ setAnimationInterval:1.0/60];
