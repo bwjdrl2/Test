@@ -206,6 +206,11 @@
 		6F48A12D16F0B95900CC0973 /* Target.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F48A12916F0B95900CC0973 /* Target.png */; };
 		6F48A12E16F0B95900CC0973 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F48A12A16F0B95900CC0973 /* white.png */; };
 		6F48A13416F0B9B600CC0973 /* GameScene_Match.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F48A13216F0B9B600CC0973 /* GameScene_Match.cpp */; };
+		6F955F5716F1FACF00CBA77B /* Unit_Pawn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F955F5516F1FACE00CBA77B /* Unit_Pawn.cpp */; };
+		6F955F5A16F1FAE200CBA77B /* Unit_Knight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F955F5816F1FAE200CBA77B /* Unit_Knight.cpp */; };
+		6F955F5D16F1FAF600CBA77B /* Unit_Rook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F955F5B16F1FAF600CBA77B /* Unit_Rook.cpp */; };
+		6F955F6116F1FB1300CBA77B /* Unit_Queen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F955F5F16F1FB1300CBA77B /* Unit_Queen.cpp */; };
+		6F955F6616F1FE6800CBA77B /* Match_Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F955F6416F1FE6800CBA77B /* Match_Map.cpp */; };
 		6FCEDDE516F1A18500F0AB06 /* 200px-Chess_bdt45_svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCEDDD916F1A18500F0AB06 /* 200px-Chess_bdt45_svg.png */; };
 		6FCEDDE616F1A18500F0AB06 /* 200px-Chess_blt45_svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCEDDDA16F1A18500F0AB06 /* 200px-Chess_blt45_svg.png */; };
 		6FCEDDE716F1A18500F0AB06 /* 200px-Chess_kdt45_svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCEDDDB16F1A18500F0AB06 /* 200px-Chess_kdt45_svg.png */; };
@@ -220,6 +225,8 @@
 		6FCEDDF016F1A18500F0AB06 /* 200px-Chess_rlt45_svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCEDDE416F1A18500F0AB06 /* 200px-Chess_rlt45_svg.png */; };
 		6FCEDDF516F1A28400F0AB06 /* Unit_Base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FCEDDF316F1A28400F0AB06 /* Unit_Base.cpp */; };
 		6FCEDDF816F1A34D00F0AB06 /* Unit_Bishop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FCEDDF616F1A34D00F0AB06 /* Unit_Bishop.cpp */; };
+		6FF3073D16F2206B00A3F63C /* Match_User.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FF3073B16F2206B00A3F63C /* Match_User.cpp */; };
+		6FF3074016F227CC00A3F63C /* Unit_King.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FF3073E16F227CB00A3F63C /* Unit_King.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -656,6 +663,16 @@
 		6F48A12A16F0B95900CC0973 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white.png; path = ../white.png; sourceTree = "<group>"; };
 		6F48A13216F0B9B600CC0973 /* GameScene_Match.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene_Match.cpp; sourceTree = "<group>"; };
 		6F48A13316F0B9B600CC0973 /* GameScene_Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene_Match.h; sourceTree = "<group>"; };
+		6F955F5516F1FACE00CBA77B /* Unit_Pawn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Unit_Pawn.cpp; sourceTree = "<group>"; };
+		6F955F5616F1FACE00CBA77B /* Unit_Pawn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit_Pawn.h; sourceTree = "<group>"; };
+		6F955F5816F1FAE200CBA77B /* Unit_Knight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Unit_Knight.cpp; sourceTree = "<group>"; };
+		6F955F5916F1FAE200CBA77B /* Unit_Knight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit_Knight.h; sourceTree = "<group>"; };
+		6F955F5B16F1FAF600CBA77B /* Unit_Rook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Unit_Rook.cpp; sourceTree = "<group>"; };
+		6F955F5C16F1FAF600CBA77B /* Unit_Rook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit_Rook.h; sourceTree = "<group>"; };
+		6F955F5F16F1FB1300CBA77B /* Unit_Queen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Unit_Queen.cpp; sourceTree = "<group>"; };
+		6F955F6016F1FB1300CBA77B /* Unit_Queen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit_Queen.h; sourceTree = "<group>"; };
+		6F955F6416F1FE6800CBA77B /* Match_Map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Match_Map.cpp; sourceTree = "<group>"; };
+		6F955F6516F1FE6800CBA77B /* Match_Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Match_Map.h; sourceTree = "<group>"; };
 		6FCEDDD916F1A18500F0AB06 /* 200px-Chess_bdt45_svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "200px-Chess_bdt45_svg.png"; sourceTree = "<group>"; };
 		6FCEDDDA16F1A18500F0AB06 /* 200px-Chess_blt45_svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "200px-Chess_blt45_svg.png"; sourceTree = "<group>"; };
 		6FCEDDDB16F1A18500F0AB06 /* 200px-Chess_kdt45_svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "200px-Chess_kdt45_svg.png"; sourceTree = "<group>"; };
@@ -672,6 +689,10 @@
 		6FCEDDF416F1A28400F0AB06 /* Unit_Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit_Base.h; sourceTree = "<group>"; };
 		6FCEDDF616F1A34D00F0AB06 /* Unit_Bishop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Unit_Bishop.cpp; sourceTree = "<group>"; };
 		6FCEDDF716F1A34D00F0AB06 /* Unit_Bishop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit_Bishop.h; sourceTree = "<group>"; };
+		6FF3073B16F2206B00A3F63C /* Match_User.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Match_User.cpp; sourceTree = "<group>"; };
+		6FF3073C16F2206B00A3F63C /* Match_User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Match_User.h; sourceTree = "<group>"; };
+		6FF3073E16F227CB00A3F63C /* Unit_King.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Unit_King.cpp; sourceTree = "<group>"; };
+		6FF3073F16F227CC00A3F63C /* Unit_King.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit_King.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1555,7 +1576,6 @@
 		6F48A12F16F0B98900CC0973 /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				6FCEDDF216F1A22D00F0AB06 /* Unit */,
 				6F48A13016F0B99400CC0973 /* Scene */,
 			);
 			name = Game;
@@ -1572,10 +1592,22 @@
 		6F48A13116F0B99F00CC0973 /* Match */ = {
 			isa = PBXGroup;
 			children = (
+				6FF3073A16F2205B00A3F63C /* User */,
+				6F955F6316F1FE4700CBA77B /* Map */,
+				6FCEDDF216F1A22D00F0AB06 /* Unit */,
 				6F48A13216F0B9B600CC0973 /* GameScene_Match.cpp */,
 				6F48A13316F0B9B600CC0973 /* GameScene_Match.h */,
 			);
 			name = Match;
+			sourceTree = "<group>";
+		};
+		6F955F6316F1FE4700CBA77B /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				6F955F6416F1FE6800CBA77B /* Match_Map.cpp */,
+				6F955F6516F1FE6800CBA77B /* Match_Map.h */,
+			);
+			name = Map;
 			sourceTree = "<group>";
 		};
 		6FCEDDD716F1A18500F0AB06 /* Game */ = {
@@ -1634,8 +1666,27 @@
 				6FCEDDF416F1A28400F0AB06 /* Unit_Base.h */,
 				6FCEDDF616F1A34D00F0AB06 /* Unit_Bishop.cpp */,
 				6FCEDDF716F1A34D00F0AB06 /* Unit_Bishop.h */,
+				6F955F5516F1FACE00CBA77B /* Unit_Pawn.cpp */,
+				6F955F5616F1FACE00CBA77B /* Unit_Pawn.h */,
+				6F955F5816F1FAE200CBA77B /* Unit_Knight.cpp */,
+				6F955F5916F1FAE200CBA77B /* Unit_Knight.h */,
+				6F955F5B16F1FAF600CBA77B /* Unit_Rook.cpp */,
+				6F955F5C16F1FAF600CBA77B /* Unit_Rook.h */,
+				6F955F5F16F1FB1300CBA77B /* Unit_Queen.cpp */,
+				6F955F6016F1FB1300CBA77B /* Unit_Queen.h */,
+				6FF3073E16F227CB00A3F63C /* Unit_King.cpp */,
+				6FF3073F16F227CC00A3F63C /* Unit_King.h */,
 			);
 			name = Unit;
+			sourceTree = "<group>";
+		};
+		6FF3073A16F2205B00A3F63C /* User */ = {
+			isa = PBXGroup;
+			children = (
+				6FF3073B16F2206B00A3F63C /* Match_User.cpp */,
+				6FF3073C16F2206B00A3F63C /* Match_User.h */,
+			);
+			name = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1902,6 +1953,13 @@
 				6F48A13416F0B9B600CC0973 /* GameScene_Match.cpp in Sources */,
 				6FCEDDF516F1A28400F0AB06 /* Unit_Base.cpp in Sources */,
 				6FCEDDF816F1A34D00F0AB06 /* Unit_Bishop.cpp in Sources */,
+				6F955F5716F1FACF00CBA77B /* Unit_Pawn.cpp in Sources */,
+				6F955F5A16F1FAE200CBA77B /* Unit_Knight.cpp in Sources */,
+				6F955F5D16F1FAF600CBA77B /* Unit_Rook.cpp in Sources */,
+				6F955F6116F1FB1300CBA77B /* Unit_Queen.cpp in Sources */,
+				6F955F6616F1FE6800CBA77B /* Match_Map.cpp in Sources */,
+				6FF3073D16F2206B00A3F63C /* Match_User.cpp in Sources */,
+				6FF3074016F227CC00A3F63C /* Unit_King.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

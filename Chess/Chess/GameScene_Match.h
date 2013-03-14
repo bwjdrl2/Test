@@ -13,6 +13,7 @@
 
 using namespace cocos2d;
 class Unit_Base;
+class Match_User;
 
 class GameScene_Match : public CCScene
 {
@@ -28,10 +29,12 @@ public:
     virtual bool init();
     virtual void update(float delta);
 public:
+    virtual void ccTouchesEnded(CCSet *pTouches, CCEvent *pEvent);
+public:
     GameLayer_Match();
     ~GameLayer_Match();
 private:
-    Unit_Base* testUnit;
+    Match_User* user;
 };
 
 #endif /* defined(__Chess__GameScene_Match__) */

@@ -16,7 +16,7 @@ class Unit_Bishop : public Unit_Base
 public:
     Unit_Bishop();
     ~Unit_Bishop();
-protected:
+    CREATE_FUNC(Unit_Bishop);
     virtual bool init();
 };
 

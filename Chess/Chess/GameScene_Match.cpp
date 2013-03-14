@@ -7,7 +7,8 @@
 //
 
 #include "GameScene_Match.h"
-#include "Unit_Bishop.h"
+#include "Match_Map.h"
+#include "Match_User.h"
 
 bool GameScene_Match::init()
 {
@@ -25,33 +26,31 @@ GameLayer_Match::GameLayer_Match()
 }
 GameLayer_Match::~GameLayer_Match()
 {
-    if(testUnit != NULL)delete testUnit;
+
 }
 
 bool GameLayer_Match::init()
 {
     CCLayer::init();
-    testUnit = NULL;
-    this->setTouchEnabled(true);
 
-    for(int i=0; i<8; ++i)
-    {
-        for(int j=0; j<8; ++j)
-        {
-            CCSprite* sprite = NULL;
-            if((i+j) % 2 != 0) sprite = CCSprite::create("white.png");
-            else sprite = CCSprite::create("black.png");
-            
-            sprite->setPosition(ccp(30 + 60*j, 20 + 40*i));
-            this->addChild(sprite);
-        }
-    }
+    this->setTouchEnabled(true);
     
-    testUnit = new Unit_Bishop();
-    testUnit->SetParent(this);
+    Match_Map* map = Match_Map::create();
+    this->addChild(map);
+    
+    user = Match_User::create();
+    this->addChild(user);
+    user->Start(map);
+    
     this->scheduleUpdate();
     
     return true;
+}
+void GameLayer_Match::ccTouchesEnded(CCSet *pTouches, CCEvent *pEvent)
+{
+    //CCDirector::sharedDirector()->end();
+    CCTouch* touch = (CCTouch*)pTouches->anyObject();
+    user->TouchProcess(touch->getLocation());
 }
 void GameLayer_Match::update(float delta)
 {
