@@ -7,6 +7,7 @@
 //
 
 #include "GameScene_Match.h"
+#include "Unit_Bishop.h"
 
 bool GameScene_Match::init()
 {
@@ -18,10 +19,19 @@ bool GameScene_Match::init()
     return true;
 }
 
+GameLayer_Match::GameLayer_Match()
+{
+    
+}
+GameLayer_Match::~GameLayer_Match()
+{
+    if(testUnit != NULL)delete testUnit;
+}
+
 bool GameLayer_Match::init()
 {
     CCLayer::init();
-    
+    testUnit = NULL;
     this->setTouchEnabled(true);
 
     for(int i=0; i<8; ++i)
@@ -37,9 +47,13 @@ bool GameLayer_Match::init()
         }
     }
     
-    CCSprite* player = CCSprite::create("Player.png");
-    player->setPosition(ccp(30,20));
-    this->addChild(player);
-
+    testUnit = new Unit_Bishop();
+    testUnit->SetParent(this);
+    this->scheduleUpdate();
+    
     return true;
+}
+void GameLayer_Match::update(float delta)
+{
+    //CCDirector::sharedDirector()->replaceScene(GameScene_Match::create());
 }

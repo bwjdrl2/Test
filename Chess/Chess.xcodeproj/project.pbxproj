@@ -201,12 +201,25 @@
 		6F48A11116F0B8A800CC0973 /* CCTableViewCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F48A11016F0B8A800CC0973 /* CCTableViewCell.cpp */; };
 		6F48A11516F0B8A800CC0973 /* HttpClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F48A11416F0B8A800CC0973 /* HttpClient.cpp */; };
 		6F48A11E16F0B8A800CC0973 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F48A11D16F0B8A800CC0973 /* AppDelegate.cpp */; };
-		6F48A12116F0B8A800CC0973 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F48A12016F0B8A800CC0973 /* HelloWorldScene.cpp */; };
 		6F48A12B16F0B95900CC0973 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F48A12716F0B95900CC0973 /* black.png */; };
 		6F48A12C16F0B95900CC0973 /* Player.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F48A12816F0B95900CC0973 /* Player.png */; };
 		6F48A12D16F0B95900CC0973 /* Target.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F48A12916F0B95900CC0973 /* Target.png */; };
 		6F48A12E16F0B95900CC0973 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F48A12A16F0B95900CC0973 /* white.png */; };
 		6F48A13416F0B9B600CC0973 /* GameScene_Match.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F48A13216F0B9B600CC0973 /* GameScene_Match.cpp */; };
+		6FCEDDE516F1A18500F0AB06 /* 200px-Chess_bdt45_svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCEDDD916F1A18500F0AB06 /* 200px-Chess_bdt45_svg.png */; };
+		6FCEDDE616F1A18500F0AB06 /* 200px-Chess_blt45_svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCEDDDA16F1A18500F0AB06 /* 200px-Chess_blt45_svg.png */; };
+		6FCEDDE716F1A18500F0AB06 /* 200px-Chess_kdt45_svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCEDDDB16F1A18500F0AB06 /* 200px-Chess_kdt45_svg.png */; };
+		6FCEDDE816F1A18500F0AB06 /* 200px-Chess_klt45_svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCEDDDC16F1A18500F0AB06 /* 200px-Chess_klt45_svg.png */; };
+		6FCEDDE916F1A18500F0AB06 /* 200px-Chess_ndt45_svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCEDDDD16F1A18500F0AB06 /* 200px-Chess_ndt45_svg.png */; };
+		6FCEDDEA16F1A18500F0AB06 /* 200px-Chess_nlt45_svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCEDDDE16F1A18500F0AB06 /* 200px-Chess_nlt45_svg.png */; };
+		6FCEDDEB16F1A18500F0AB06 /* 200px-Chess_pdt45_svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCEDDDF16F1A18500F0AB06 /* 200px-Chess_pdt45_svg.png */; };
+		6FCEDDEC16F1A18500F0AB06 /* 200px-Chess_plt45_svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCEDDE016F1A18500F0AB06 /* 200px-Chess_plt45_svg.png */; };
+		6FCEDDED16F1A18500F0AB06 /* 200px-Chess_qdt45_svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCEDDE116F1A18500F0AB06 /* 200px-Chess_qdt45_svg.png */; };
+		6FCEDDEE16F1A18500F0AB06 /* 200px-Chess_qlt45_svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCEDDE216F1A18500F0AB06 /* 200px-Chess_qlt45_svg.png */; };
+		6FCEDDEF16F1A18500F0AB06 /* 200px-Chess_rdt45_svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCEDDE316F1A18500F0AB06 /* 200px-Chess_rdt45_svg.png */; };
+		6FCEDDF016F1A18500F0AB06 /* 200px-Chess_rlt45_svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCEDDE416F1A18500F0AB06 /* 200px-Chess_rlt45_svg.png */; };
+		6FCEDDF516F1A28400F0AB06 /* Unit_Base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FCEDDF316F1A28400F0AB06 /* Unit_Base.cpp */; };
+		6FCEDDF816F1A34D00F0AB06 /* Unit_Bishop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FCEDDF616F1A34D00F0AB06 /* Unit_Bishop.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -637,14 +650,28 @@
 		6F48A11A16F0B8A800CC0973 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		6F48A11C16F0B8A800CC0973 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		6F48A11D16F0B8A800CC0973 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
-		6F48A11F16F0B8A800CC0973 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		6F48A12016F0B8A800CC0973 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
-		6F48A12716F0B95900CC0973 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black.png; path = Resources/black.png; sourceTree = "<group>"; };
-		6F48A12816F0B95900CC0973 /* Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Player.png; path = Resources/Player.png; sourceTree = "<group>"; };
-		6F48A12916F0B95900CC0973 /* Target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Target.png; path = Resources/Target.png; sourceTree = "<group>"; };
-		6F48A12A16F0B95900CC0973 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white.png; path = Resources/white.png; sourceTree = "<group>"; };
+		6F48A12716F0B95900CC0973 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black.png; path = ../black.png; sourceTree = "<group>"; };
+		6F48A12816F0B95900CC0973 /* Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Player.png; path = ../Player.png; sourceTree = "<group>"; };
+		6F48A12916F0B95900CC0973 /* Target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Target.png; path = ../Target.png; sourceTree = "<group>"; };
+		6F48A12A16F0B95900CC0973 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white.png; path = ../white.png; sourceTree = "<group>"; };
 		6F48A13216F0B9B600CC0973 /* GameScene_Match.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene_Match.cpp; sourceTree = "<group>"; };
 		6F48A13316F0B9B600CC0973 /* GameScene_Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene_Match.h; sourceTree = "<group>"; };
+		6FCEDDD916F1A18500F0AB06 /* 200px-Chess_bdt45_svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "200px-Chess_bdt45_svg.png"; sourceTree = "<group>"; };
+		6FCEDDDA16F1A18500F0AB06 /* 200px-Chess_blt45_svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "200px-Chess_blt45_svg.png"; sourceTree = "<group>"; };
+		6FCEDDDB16F1A18500F0AB06 /* 200px-Chess_kdt45_svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "200px-Chess_kdt45_svg.png"; sourceTree = "<group>"; };
+		6FCEDDDC16F1A18500F0AB06 /* 200px-Chess_klt45_svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "200px-Chess_klt45_svg.png"; sourceTree = "<group>"; };
+		6FCEDDDD16F1A18500F0AB06 /* 200px-Chess_ndt45_svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "200px-Chess_ndt45_svg.png"; sourceTree = "<group>"; };
+		6FCEDDDE16F1A18500F0AB06 /* 200px-Chess_nlt45_svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "200px-Chess_nlt45_svg.png"; sourceTree = "<group>"; };
+		6FCEDDDF16F1A18500F0AB06 /* 200px-Chess_pdt45_svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "200px-Chess_pdt45_svg.png"; sourceTree = "<group>"; };
+		6FCEDDE016F1A18500F0AB06 /* 200px-Chess_plt45_svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "200px-Chess_plt45_svg.png"; sourceTree = "<group>"; };
+		6FCEDDE116F1A18500F0AB06 /* 200px-Chess_qdt45_svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "200px-Chess_qdt45_svg.png"; sourceTree = "<group>"; };
+		6FCEDDE216F1A18500F0AB06 /* 200px-Chess_qlt45_svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "200px-Chess_qlt45_svg.png"; sourceTree = "<group>"; };
+		6FCEDDE316F1A18500F0AB06 /* 200px-Chess_rdt45_svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "200px-Chess_rdt45_svg.png"; sourceTree = "<group>"; };
+		6FCEDDE416F1A18500F0AB06 /* 200px-Chess_rlt45_svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "200px-Chess_rlt45_svg.png"; sourceTree = "<group>"; };
+		6FCEDDF316F1A28400F0AB06 /* Unit_Base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Unit_Base.cpp; sourceTree = "<group>"; };
+		6FCEDDF416F1A28400F0AB06 /* Unit_Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit_Base.h; sourceTree = "<group>"; };
+		6FCEDDF616F1A34D00F0AB06 /* Unit_Bishop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Unit_Bishop.cpp; sourceTree = "<group>"; };
+		6FCEDDF716F1A34D00F0AB06 /* Unit_Bishop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit_Bishop.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -714,20 +741,8 @@
 		6F489E9016F0B8A400CC0973 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6F48A12716F0B95900CC0973 /* black.png */,
-				6F48A12816F0B95900CC0973 /* Player.png */,
-				6F48A12916F0B95900CC0973 /* Target.png */,
-				6F48A12A16F0B95900CC0973 /* white.png */,
-				6F489E9116F0B8A400CC0973 /* CloseNormal.png */,
-				6F489E9316F0B8A400CC0973 /* CloseSelected.png */,
-				6F489E9516F0B8A400CC0973 /* Default.png */,
-				6F489E9716F0B8A400CC0973 /* HelloWorld.png */,
-				6F489E9916F0B8A400CC0973 /* Icon-72.png */,
-				6F489E9B16F0B8A400CC0973 /* Icon-Small-50.png */,
-				6F489E9D16F0B8A400CC0973 /* Icon-Small.png */,
-				6F489E9F16F0B8A400CC0973 /* Icon-Small@2x.png */,
-				6F489EA116F0B8A400CC0973 /* Icon.png */,
-				6F489EA316F0B8A400CC0973 /* Icon@2x.png */,
+				6FCEDDF116F1A19A00F0AB06 /* Default */,
+				6FCEDDD716F1A18500F0AB06 /* Game */,
 				6F489EA516F0B8A400CC0973 /* iTunesArtwork */,
 				6F489EA716F0B8A400CC0973 /* Info.plist */,
 			);
@@ -1533,8 +1548,6 @@
 				6F48A12F16F0B98900CC0973 /* Game */,
 				6F48A11C16F0B8A800CC0973 /* AppDelegate.h */,
 				6F48A11D16F0B8A800CC0973 /* AppDelegate.cpp */,
-				6F48A11F16F0B8A800CC0973 /* HelloWorldScene.h */,
-				6F48A12016F0B8A800CC0973 /* HelloWorldScene.cpp */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1542,6 +1555,7 @@
 		6F48A12F16F0B98900CC0973 /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				6FCEDDF216F1A22D00F0AB06 /* Unit */,
 				6F48A13016F0B99400CC0973 /* Scene */,
 			);
 			name = Game;
@@ -1562,6 +1576,66 @@
 				6F48A13316F0B9B600CC0973 /* GameScene_Match.h */,
 			);
 			name = Match;
+			sourceTree = "<group>";
+		};
+		6FCEDDD716F1A18500F0AB06 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				6F48A12716F0B95900CC0973 /* black.png */,
+				6F48A12816F0B95900CC0973 /* Player.png */,
+				6F48A12916F0B95900CC0973 /* Target.png */,
+				6F48A12A16F0B95900CC0973 /* white.png */,
+				6FCEDDD816F1A18500F0AB06 /* Unit */,
+			);
+			name = Game;
+			path = Resources/Game;
+			sourceTree = "<group>";
+		};
+		6FCEDDD816F1A18500F0AB06 /* Unit */ = {
+			isa = PBXGroup;
+			children = (
+				6FCEDDD916F1A18500F0AB06 /* 200px-Chess_bdt45_svg.png */,
+				6FCEDDDA16F1A18500F0AB06 /* 200px-Chess_blt45_svg.png */,
+				6FCEDDDB16F1A18500F0AB06 /* 200px-Chess_kdt45_svg.png */,
+				6FCEDDDC16F1A18500F0AB06 /* 200px-Chess_klt45_svg.png */,
+				6FCEDDDD16F1A18500F0AB06 /* 200px-Chess_ndt45_svg.png */,
+				6FCEDDDE16F1A18500F0AB06 /* 200px-Chess_nlt45_svg.png */,
+				6FCEDDDF16F1A18500F0AB06 /* 200px-Chess_pdt45_svg.png */,
+				6FCEDDE016F1A18500F0AB06 /* 200px-Chess_plt45_svg.png */,
+				6FCEDDE116F1A18500F0AB06 /* 200px-Chess_qdt45_svg.png */,
+				6FCEDDE216F1A18500F0AB06 /* 200px-Chess_qlt45_svg.png */,
+				6FCEDDE316F1A18500F0AB06 /* 200px-Chess_rdt45_svg.png */,
+				6FCEDDE416F1A18500F0AB06 /* 200px-Chess_rlt45_svg.png */,
+			);
+			path = Unit;
+			sourceTree = "<group>";
+		};
+		6FCEDDF116F1A19A00F0AB06 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				6F489E9116F0B8A400CC0973 /* CloseNormal.png */,
+				6F489E9316F0B8A400CC0973 /* CloseSelected.png */,
+				6F489E9516F0B8A400CC0973 /* Default.png */,
+				6F489E9716F0B8A400CC0973 /* HelloWorld.png */,
+				6F489E9916F0B8A400CC0973 /* Icon-72.png */,
+				6F489E9B16F0B8A400CC0973 /* Icon-Small-50.png */,
+				6F489E9D16F0B8A400CC0973 /* Icon-Small.png */,
+				6F489E9F16F0B8A400CC0973 /* Icon-Small@2x.png */,
+				6F489EA116F0B8A400CC0973 /* Icon.png */,
+				6F489EA316F0B8A400CC0973 /* Icon@2x.png */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		6FCEDDF216F1A22D00F0AB06 /* Unit */ = {
+			isa = PBXGroup;
+			children = (
+				6FCEDDF316F1A28400F0AB06 /* Unit_Base.cpp */,
+				6FCEDDF416F1A28400F0AB06 /* Unit_Base.h */,
+				6FCEDDF616F1A34D00F0AB06 /* Unit_Bishop.cpp */,
+				6FCEDDF716F1A34D00F0AB06 /* Unit_Bishop.h */,
+			);
+			name = Unit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1630,6 +1704,18 @@
 				6F48A12C16F0B95900CC0973 /* Player.png in Resources */,
 				6F48A12D16F0B95900CC0973 /* Target.png in Resources */,
 				6F48A12E16F0B95900CC0973 /* white.png in Resources */,
+				6FCEDDE516F1A18500F0AB06 /* 200px-Chess_bdt45_svg.png in Resources */,
+				6FCEDDE616F1A18500F0AB06 /* 200px-Chess_blt45_svg.png in Resources */,
+				6FCEDDE716F1A18500F0AB06 /* 200px-Chess_kdt45_svg.png in Resources */,
+				6FCEDDE816F1A18500F0AB06 /* 200px-Chess_klt45_svg.png in Resources */,
+				6FCEDDE916F1A18500F0AB06 /* 200px-Chess_ndt45_svg.png in Resources */,
+				6FCEDDEA16F1A18500F0AB06 /* 200px-Chess_nlt45_svg.png in Resources */,
+				6FCEDDEB16F1A18500F0AB06 /* 200px-Chess_pdt45_svg.png in Resources */,
+				6FCEDDEC16F1A18500F0AB06 /* 200px-Chess_plt45_svg.png in Resources */,
+				6FCEDDED16F1A18500F0AB06 /* 200px-Chess_qdt45_svg.png in Resources */,
+				6FCEDDEE16F1A18500F0AB06 /* 200px-Chess_qlt45_svg.png in Resources */,
+				6FCEDDEF16F1A18500F0AB06 /* 200px-Chess_rdt45_svg.png in Resources */,
+				6FCEDDF016F1A18500F0AB06 /* 200px-Chess_rlt45_svg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1813,8 +1899,9 @@
 				6F48A11116F0B8A800CC0973 /* CCTableViewCell.cpp in Sources */,
 				6F48A11516F0B8A800CC0973 /* HttpClient.cpp in Sources */,
 				6F48A11E16F0B8A800CC0973 /* AppDelegate.cpp in Sources */,
-				6F48A12116F0B8A800CC0973 /* HelloWorldScene.cpp in Sources */,
 				6F48A13416F0B9B600CC0973 /* GameScene_Match.cpp in Sources */,
+				6FCEDDF516F1A28400F0AB06 /* Unit_Base.cpp in Sources */,
+				6FCEDDF816F1A34D00F0AB06 /* Unit_Bishop.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1946,6 +2033,7 @@
 				6F48A12616F0B8A800CC0973 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -12,6 +12,7 @@
 #include "cocos2d.h"
 
 using namespace cocos2d;
+class Unit_Base;
 
 class GameScene_Match : public CCScene
 {
@@ -25,6 +26,12 @@ class GameLayer_Match : public CCLayer
 public:
     CREATE_FUNC(GameLayer_Match);
     virtual bool init();
+    virtual void update(float delta);
+public:
+    GameLayer_Match();
+    ~GameLayer_Match();
+private:
+    Unit_Base* testUnit;
 };
 
 #endif /* defined(__Chess__GameScene_Match__) */
